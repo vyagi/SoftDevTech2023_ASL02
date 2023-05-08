@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thermometer", "Thermometer\Thermometer.csproj", "{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarineApplication", "MarineApplication\MarineApplication.csproj", "{8F641B78-A819-463A-B79F-772555E0F7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPattern", "FluentBuilderPattern\FluentBuilderPattern.csproj", "{0F66CD9C-417C-4929-B684-ED5E4621D6DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F641B78-A819-463A-B79F-772555E0F7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F641B78-A819-463A-B79F-772555E0F7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F641B78-A819-463A-B79F-772555E0F7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F641B78-A819-463A-B79F-772555E0F7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F66CD9C-417C-4929-B684-ED5E4621D6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F66CD9C-417C-4929-B684-ED5E4621D6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F66CD9C-417C-4929-B684-ED5E4621D6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F66CD9C-417C-4929-B684-ED5E4621D6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
