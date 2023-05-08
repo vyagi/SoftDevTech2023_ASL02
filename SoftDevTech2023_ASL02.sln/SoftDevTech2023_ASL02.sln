@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{1FC57BF2-9971-4CA9-BA34-D1F3A5CF3274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{1FC57BF2-9971-4CA9-BA34-D1F3A5CF3274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.Tests", "Geometry.Tests\Geometry.Tests.csproj", "{695E30C9-8533-4630-9DAF-D2CCD237E5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry.Tests", "Geometry.Tests\Geometry.Tests.csproj", "{695E30C9-8533-4630-9DAF-D2CCD237E5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{42CC3F4C-FB3F-4FE4-A2F3-E268380B2F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.Tests", "SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{FA959C7C-DE29-404A-AFCA-3C6B017093A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{3AB767FF-4444-4EE3-903D-62A467216308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thermometer", "Thermometer\Thermometer.csproj", "{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{695E30C9-8533-4630-9DAF-D2CCD237E5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695E30C9-8533-4630-9DAF-D2CCD237E5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695E30C9-8533-4630-9DAF-D2CCD237E5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CC3F4C-FB3F-4FE4-A2F3-E268380B2F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CC3F4C-FB3F-4FE4-A2F3-E268380B2F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CC3F4C-FB3F-4FE4-A2F3-E268380B2F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CC3F4C-FB3F-4FE4-A2F3-E268380B2F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA959C7C-DE29-404A-AFCA-3C6B017093A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA959C7C-DE29-404A-AFCA-3C6B017093A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA959C7C-DE29-404A-AFCA-3C6B017093A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA959C7C-DE29-404A-AFCA-3C6B017093A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB767FF-4444-4EE3-903D-62A467216308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB767FF-4444-4EE3-903D-62A467216308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB767FF-4444-4EE3-903D-62A467216308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB767FF-4444-4EE3-903D-62A467216308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC08EC66-73CD-4CF0-88D8-909D1EC7F76E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
